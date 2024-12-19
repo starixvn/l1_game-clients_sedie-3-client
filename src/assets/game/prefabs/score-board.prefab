@@ -342,7 +342,6 @@
     "__prefab": {
       "__id__": 10
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -503,7 +502,6 @@
     "__prefab": {
       "__id__": 18
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -664,7 +662,6 @@
     "__prefab": {
       "__id__": 26
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -825,7 +822,6 @@
     "__prefab": {
       "__id__": 34
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -986,7 +982,6 @@
     "__prefab": {
       "__id__": 42
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -1147,7 +1142,6 @@
     "__prefab": {
       "__id__": 50
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3712,7 +3706,6 @@
     "__prefab": {
       "__id__": 167
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3921,7 +3914,6 @@
     "__prefab": {
       "__id__": 179
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -5095,6 +5087,9 @@
     "scoreboards": [
       null
     ],
+    "resultPercentage": {
+      "__id__": 54
+    },
     "_id": ""
   },
   {
