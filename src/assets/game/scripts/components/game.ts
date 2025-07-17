@@ -11,7 +11,8 @@ import { ChipFlying } from "../../../../extensions/shared-components/assets/game
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
 import { FunctionUtils, isIOS } from "../../../../extensions/shared-components/assets/shared/utils";
 import { siteConfigs } from "../../../scripts/site-configs";
-import { containerOptions, settings } from "../game-settings";
+import { settings } from "../game-settings";
+import { containerOptions } from "../containerOptions";
 import { IResult, Plate } from "./plate";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
