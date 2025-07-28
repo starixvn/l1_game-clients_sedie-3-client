@@ -34,6 +34,16 @@
         "path": "winning/red_wins_vi",
         "isLazyLoad": true
     },
+    "red_wins_ja": {
+        "bundle": "resources",
+        "path": "winning/red_wins_ja",
+        "isLazyLoad": true
+    },
+    "red_wins_es": {
+        "bundle": "resources",
+        "path": "winning/red_wins_es",
+        "isLazyLoad": true
+    },
     "white_wins_zh_cn": {
         "bundle": "resources",
         "path": "winning/white_wins_zh_cn",
@@ -62,6 +72,16 @@
     "white_wins_vi": {
         "bundle": "resources",
         "path": "winning/white_wins_vi",
+        "isLazyLoad": true
+    },
+    "white_wins_ja": {
+        "bundle": "resources",
+        "path": "winning/white_wins_ja",
+        "isLazyLoad": true
+    },
+    "white_wins_es": {
+        "bundle": "resources",
+        "path": "winning/white_wins_es",
         "isLazyLoad": true
     }
 }
