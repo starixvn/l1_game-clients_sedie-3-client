@@ -9,10 +9,10 @@ import Observer from "observer";
 import { AudioContainer } from "../../../../extensions/shared-components/assets/game/audios/scripts/component/audio-container";
 import { ChipFlying } from "../../../../extensions/shared-components/assets/game/chip-flying/scripts/components/chip-flying";
 import GameComponent from "../../../../extensions/shared-components/assets/game/scripts/components/game-component";
-import { FunctionUtils, isIOS } from "../../../../extensions/shared-components/assets/shared/utils";
+import { AnimationUtils, isIOS } from "../../../../extensions/shared-components/assets/shared/utils";
 import { siteConfigs } from "../../../scripts/site-configs";
-import { settings } from "../game-settings";
 import { containerOptions } from "../containerOptions";
+import { settings } from "../game-settings";
 import { IResult, Plate } from "./plate";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
@@ -78,7 +78,7 @@ export default class Game extends GameComponent {
             return;
         }
         if (isIOS()) {
-            await FunctionUtils.delay(800);
+            await AnimationUtils.delayTime(800);
         }
 
         this.showResult(result, true, settlementResult).then(() => {
@@ -101,7 +101,7 @@ export default class Game extends GameComponent {
             const { result, settlementResult } = lastRound;
             if (firstJoinGameHistory.animationHighlight) {
                 if (roundTime === 0) {
-                    await FunctionUtils.delay(1000);
+                    await AnimationUtils.delayTime(1000);
                     if (this.currentFinish) {
                         return;
                     }
