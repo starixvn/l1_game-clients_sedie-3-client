@@ -78,7 +78,7 @@ export default class Game extends GameComponent {
             return;
         }
         if (isIOS()) {
-            await AnimationUtils.delayTime(800);
+            await AnimationUtils.delayTime(0.8);
         }
 
         this.showResult(result, true, settlementResult).then(() => {
@@ -101,7 +101,7 @@ export default class Game extends GameComponent {
             const { result, settlementResult } = lastRound;
             if (firstJoinGameHistory.animationHighlight) {
                 if (roundTime === 0) {
-                    await AnimationUtils.delayTime(1000);
+                    await AnimationUtils.delayTime(1);
                     if (this.currentFinish) {
                         return;
                     }
